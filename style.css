@@ -1,0 +1,101 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Overall body styling */
+body {
+    background-color: #0e0e0e;  /* Dark background for hacker vibe */
+    font-family: 'Courier New', Courier, monospace;  /* Monospaced font for a hacker theme */
+    color: #00ff00;  /* Green text, commonly associated with "hacker" aesthetic */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-bottom: 2px solid #00ff00;
+    margin-bottom: 50px;
+}
+
+/* Product list styling */
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.product-card {
+    background-color: #1e1e1e;
+    border: 1px solid #00ff00;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.buy-btn {
+    background-color: #00ff00;
+    color: #0e0e0e;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.buy-btn:hover {
+    background-color: #0e0e0e;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e1e;
+    color: #00ff00;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
